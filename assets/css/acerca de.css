@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+}
+*{        
+    box-sizing: border-box; /* te mantiene fija la medida del elemento*/
+  
+  }
+  
+ /*BARRA DE NAGEVACION*/
+
+header{
+    height: 60px;
+    border-bottom: 1px solid #cc0000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+#btn-menu{
+    display: none;
+}
+
+.fas.fa-bars{
+    display: none;
+}
+header label{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.menu ul{
+display: flex;
+list-style: none;
+
+}
+
+.menu a{
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+color: #cc0000;
+}
+
+#logo{
+    width: 250px;
+    height: 110px;
+    
+}
+
+.icon{
+    font-size: 110%;
+}
+
+.icon:hover{
+    color: #cc0000;
+}
+
+#btn-tienda{
+    display: none;
+}
+  
+  .icon{
+      font-size: 110%;
+  }
+
+
+/*encabezado*/
+#acercade{
+    align-items: center;
+width: 80%;
+height: 300px;
+margin-left: 80px;
+margin-top: 30px;
+z-index: 1;
+}
+
+#logonight{
+border-bottom: 2px solid #cc0000;
+width: 25%;
+margin-top: 60px;
+margin-left: 38%;}
+
+#txt_principal{
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#txt_secundario{
+    text-align: center;
+    padding-left: -50px;
+    color: white;
+}
+
+
+/*redes*/
+.redes{
+    background-color: black;
+    background-size: 100%;
+    margin-top: 120px;
+
+    
+    }
+    
+    
+    .instagram{
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 130%;
+        line-height: 30px;
+    
+    }
+    
+    .fab{
+    color: white;
+    width: 25px;
+    }
+    
+    
+    #copyright{
+        font-family: kenya;
+        font-size: 15px;
+    }
+    #derechos{
+        text-align: center;
+    }
+@media only screen and (max-width: 500px) {
+    
+        
+        
+            header{
+                height: 50px;
+        padding-bottom: 1rem;
+            }
+            
+            .fas.fa-bars{
+                display: block;
+         }
+       
+            .menu{
+                position: absolute;
+                top: 50px;
+                left: 0;
+                width: 100%;
+                transform: translateX(-100%);
+                transition: all 0.3s;
+                z-index: 3;
+            }
+            
+            .menu ul{
+                flex-direction: column;
+                height: 160px;
+                background-color: rgb(43, 42, 42);
+                z-index: 3;
+            }
+            
+            #btn-menu:checked ~ .menu{
+                transform: translateX(0%);
+                z-index: 3;
+            }
+        .icon.fas.fa-shopping-cart{
+            display: flex;
+        }
+        
+        
+        #btn-tienda{
+           display: flex;
+        }
+
+        .acercade{
+            align-items: center;
+            margin: 5px;
+            font-size: 15px;
+        }
+        #acerca{
+            width: 40%;
+            margin-top: 60px;
+            margin-left: 34%;}
+    }
+    @font-face {
+        font-family: kenya;
+        src: url(../fonts/kenyan\ coffee\ rg.ttf);
+    }

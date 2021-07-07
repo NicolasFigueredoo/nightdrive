@@ -1,0 +1,238 @@
+#store{
+    height: 10px;
+    padding-left: 45%;
+}
+h1{
+    color:white;
+    padding-top: 80px;
+    font-family: bebas;
+    font-size: 50px;
+
+}
+
+#tienda{
+background-color: white ;
+border-top: 2px solid #cc0000;
+margin-top: 150px;
+width:100%;
+padding:20px 5%;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+}
+
+#tienda div{
+    margin-bottom: 30px;
+    width:33%;
+    display: flex;
+    justify-content: center;
+}
+
+#turbo{
+    
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+#oscuro{
+    
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+
+
+#casco{
+  
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+
+#subaru{
+ 
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+#mustang{
+   
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+#golfito{
+
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+#nightdrive1{
+    
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+#turbo2{
+   
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+#skyline{
+
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+.catalogo{
+    text-decoration: none;
+}
+.catalogo img:hover{
+    transform: scale(1.1)
+}
+
+
+/*PRECIOS TIENDA*/
+
+.tiendatitle{
+    color: black;
+   font-size: 100%;
+    margin: 13px;
+    font-family: milky;
+text-align: center;    
+}
+.precio{
+    text-align: center;
+    color: firebrick;
+    font-family: milky;
+    font-size: 110%;
+    font-style: oblique;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+.catalogo img:hover{
+    transform: none;;
+}
+#tienda{
+    background-position: center;
+    margin-top: 0;
+}
+
+
+    #golfito{
+
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    #turbo{
+    
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    
+    #oscuro{
+        
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    
+    
+    
+    #casco{
+      
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    
+    
+    #subaru{
+     
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    
+    #mustang{
+       
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    
+    #nightdrive1{
+        
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    
+    #turbo2{
+       
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+    #skyline{
+    
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        border-radius: 20px;
+        transition: transform 1s;
+    }
+   }
+
+
+
+ 

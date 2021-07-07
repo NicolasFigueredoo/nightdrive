@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- lenguaje español -->
+<html lang="en">
+    <!-- todo lo que le usuario no puede visualizar -->
+<head>
+    <!-- todo lo que le usuario no puede visualizar -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo -->
+    <title>N I G H T D R I V E - STORE</title>
+    <!-- icono del titulo -->
+    <link rel="shortcut icon" href="assets/img/nightdrive.ico.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- traer el css externo-->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/tienda.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+       <!-- traer iconos externos mediante un link -->
+    <script src="https://kit.fontawesome.com/4d804e37f1.js" crossorigin="anonymous"></script>
+</head>
+<!-- todo lo que el usuario puede visualizar-->
+<body>
+<!-- encabezado principal -->
+<header>
+    <!--logo de nightdrive dentro de la barra-->
+    <a href="./index.html"><img src="./assets/img/logonight.png" id="logo" alt="logo Nightdrive"></a>   
+     <!-- icono de tienda -->
+     <i id="btn-tienda" class="icon fas fa-shopping-cart"></i>
+     <!-- boton tipo checkbox para ser usado como responsive-->
+    <input type="checkbox" id="btn-menu">
+       <label for="btn-menu" class="fas fa-bars"></label>
+     <!-- barra de navegacion-->
+    <nav class="menu">
+    
+     <!-- secciones de la pagian de navegacion-->
+        <ul>
+             <li><a href="#tienda">TIENDA</a></li>
+             <li><a href="./assets/info/acerca de.html">ACERCA DE</a></li>    
+             <li><a href="./assets/Contacto/contacto.html">CONTACTO</a></li>
+             <li><a ><i class="icon fas fa-shopping-cart"></i></a></li>          
+        </ul>
+        
+    </nav>  
+</header>
+
+
+        
+    <!-- encabezado superior -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/nightdriveencabezado.png" class="d-block w-100" alt="#">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/TURBOROSA.png" class="d-block w-100" alt="#">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/fondo encabezado.jpg.png" class="d-block w-100" alt="#">
+          </div>
+        </div>
+      </div>
+<!-- Tienda -->
+<div class="contenedortienda">
+    <div id="tienda">
+        
+        <div><a class="catalogo" href="#"><img id="turbo" src="./assets/fotos tienda/dami1.png" alt="turboimage">
+             <p class="tiendatitle">Turbo Calcomania</p><p class="precio">50.00$</p></a> </div>
+        <div><a class="catalogo" href="#"><img id="casco" src="./assets/fotos tienda/casco.png" alt="foto casco">
+             <p class="tiendatitle">Casco Calcomania</p><p class="precio">50.00$</p></a></div>
+        <div><a class="catalogo" href="#"><img id="golfito" src="./assets/fotos tienda/golfito.png" alt="golf auto">
+            <p class="tiendatitle">Golf Calcomania</p><p class="precio">100.00$</p></a></div>     
+        <div><a class="catalogo" href="#"><img id="subaru" src="./assets/fotos tienda/subaru.png" alt="subaru auto">
+            <p class="tiendatitle">Subaru Desing Calcomania</p><p class="precio">100.00$</p></a></div>
+        <div><a class="catalogo" href="#"><img id="nightdrive1" src="./assets/fotos tienda/nightdrive1.png" alt="calco nightdrive"> 
+            <p class="tiendatitle">Nightdrive Desing Calcomania</p><p class="precio">100.00$</p></a></div>
+        <div><a class="catalogo" href="#"><img id="turbo2" src="./assets/fotos tienda/TURBO2.png" alt="turbo">
+            <p class="tiendatitle">Nightdrive Desing Calcomania</p><p class="precio">100.00$</p></a></div>
+        <div><a class="catalogo" href="#"><img id="skyline" src="./assets/fotos tienda/SKYLINE.png" alt="auto skyline">
+            <p class="tiendatitle">Skyline Desing Calcomania</p><p class="precio">50.00$</p></a></div>
+        <div><a class="catalogo" href="#"><img id="oscuro" src="./assets/fotos tienda/nightdrive oscuro.png" alt="turboimage">
+            <p class="tiendatitle">Noche Desing Calcomania</p><p class="precio">50.00$</p></a></div>
+        <div><a class="catalogo" href="#"><img id="mustang" src="./assets/fotos tienda/mustang.png" alt="mustang auto"> 
+            <p class="tiendatitle">Mustang Desing Calcomania</p><p class="precio">50.00$</p></a></div>
+                </div>
+            </div>
+
+        <!--- pie de pagina-->
+<footer class="redes">
+<!-- iconos redes -->
+<div class="instagram"> <a target="_blank" href="https://www.instagram.com/grupo.nightdrive/"><i class="fab fa-instagram"></i></a>
+<a target="_blank" href="https://www.facebook.com/NightdriveDesing"><i class="fab fa-facebook-f"></i></a>
+<div id="derechos">
+    <p id="copyright"> COPYRIGHT <i class="far fa-copyright"></i> 2021 <br></p> </div>
+
+</div>
+            
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
